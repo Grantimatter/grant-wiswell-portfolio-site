@@ -12,4 +12,4 @@
 
 <VerticalTabs />
 
-<button class="btn">Hello daisyUI</button>
+<button class="btn btn-ghost-primary m-6">Hello daisyUI</button>
