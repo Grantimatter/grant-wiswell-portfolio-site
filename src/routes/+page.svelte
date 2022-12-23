@@ -1,5 +1,6 @@
 <script lang="ts">
 	import VerticalTabs from "$components/navigation/VerticalTabs.svelte";
+	import ParticlesExample from "$components/particles/ParticlesExample.svelte";
 	import Turntable from "$components/scenes/Turntable.svelte";
 
 </script>
@@ -16,3 +17,7 @@
 </div>
 
 <button class="btn btn-ghost-primary m-6">Hello Skeleton</button>
+
+<div class="h-screen">
+	<ParticlesExample />
+</div>
