@@ -12,24 +12,13 @@
     "test:unit": "vitest",
     "test:unit:coverage": "vitest run --coverage",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "test-storybook": "storybook test"
+    "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@dimforge/rapier3d-compat": "^0.10.0",
     "@playwright/test": "^1.28.1",
     "@skeletonlabs/skeleton": "^0.80.9",
-    "@storybook/addon-actions": "^7.0.0-beta.13",
-    "@storybook/addon-coverage": "^0.0.7",
-    "@storybook/addon-essentials": "^7.0.0-beta.13",
-    "@storybook/addon-interactions": "^7.0.0-beta.13",
-    "@storybook/addon-links": "^7.0.0-beta.13",
-    "@storybook/svelte": "^7.0.0-beta.13",
-    "@storybook/sveltekit": "^7.0.0-beta.13",
-    "@storybook/testing-library": "^0.0.14-next.1",
     "@sveltejs/adapter-auto": "^1.0.0",
     "@sveltejs/kit": "^1.0.0",
     "@tailwindcss/forms": "^0.5.3",
@@ -59,7 +48,6 @@
     "prettier-plugin-svelte": "^2.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.0.0-beta.13",
     "svelte": "^3.55.0",
     "svelte-check": "^2.9.2",
     "svelte-loader": "^3.1.4",
@@ -73,6 +61,10 @@
   },
   "type": "module",
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "svelte-fa": "^3.0.3",
     "svelte-particles": "^2.7.0",
     "tsparticles": "^2.7.0"
   }

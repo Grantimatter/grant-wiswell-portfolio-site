@@ -1,6 +1,4 @@
 <script lang="ts">
-	import VerticalTabs from "$components/navigation/VerticalTabs.svelte";
-	import ParticlesExample from "$components/particles/ParticlesExample.svelte";
 	import Turntable from "$components/scenes/Turntable.svelte";
 
 </script>
@@ -9,15 +7,17 @@
 	<title>Home | Grant Wiswell - Software Engineer </title>
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<div class="h-screen">
-	<Turntable />
-</div>
-
-<button class="btn btn-ghost-primary m-6">Hello Skeleton</button>
-
-<div class="h-screen">
-	<ParticlesExample />
+<div class="container mx-auto p-8 space-y-8">
+	<h1>Hello Skeleton</h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	<hr />
+	<section class="card p-4">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	</section>
+	<hr />
+	<section class="flex space-x-2">
+		<a class="btn btn-filled-primary" href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>
+		<a class="btn btn-filled-secondary" href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind</a>
+		<a class="btn btn-filled-tertiary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+	</section>
 </div>

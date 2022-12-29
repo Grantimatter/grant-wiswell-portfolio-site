@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
   import { createEventDispatcher } from 'svelte';
   /**
    * Is this the principal call to action on the page?
@@ -16,7 +16,7 @@
   /**
    * Button contents
    */
-  export let label = '';
+  export let label = 'Button';
 
   let mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
 
@@ -34,7 +34,7 @@
 
 <button
   type="button"
-  class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+  class={['btn', 'btn-filled-primary', mode].join(' ')}
   {style}
   on:click={onClick}>
   {label}
